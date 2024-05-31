@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Run the unit tests
-                    sh 'python3 -m unittest test_add.py >> /home/infrastuct/result.txt'
+                    sh 'python3 -m unittest test_add.py >> /home/infrastruct/result.txt'
                 }
             }
         }
